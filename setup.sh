@@ -1,4 +1,11 @@
-mkdir -p ~/.streamlit/echo "\
+mkdir -p ~/.streamlit/
+
+echo "\
+[general]\n\
+email = \"iliagouaref.ds@gmail.com\"\n\
+" > ~/.streamlit/credentials.toml
+
+echo "\
 [server]\n\
 headless = true\n\
 port = $PORT\n\
